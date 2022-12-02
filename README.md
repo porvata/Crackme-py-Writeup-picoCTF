@@ -15,8 +15,13 @@ crackme.py (File included in repository)
 
 4. The secret password is given to us as:
     >A:4@r%uL`M-^M0c0AbcM-MFE067d3eh2bN
-    
-5. We need to run this password through the decode_secret(secret) function to get our flag
 
-6. Call the function like so:
+5. We set the secret password to the variable
+    >bezos_cc_secret
+    
+5. Finally, we need to run this password through the decode_secret(secret) function to get our flag
+
+6. Call the function in your code like so:
     `decode_secret(bezos_cc_secret)`
+    
+Feel free to use my crackedit.py file for reference
