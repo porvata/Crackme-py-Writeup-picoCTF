@@ -9,9 +9,6 @@ def decode_secret(secret):
     NOTE: encode and decode are the same operation in the ROT cipher family.
     """
 
-    alphabet = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ"+ \
-            "[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
-
     # Encryption key
     rotate_const = 47
 
