@@ -23,4 +23,4 @@ def decode_secret(secret):
 
     print(decoded)
 
-decode_secret("A:4@r%uL`M-^M0c0AbcM-MFE067d3eh2bN")
+decode_secret(bezos_cc_secret)
